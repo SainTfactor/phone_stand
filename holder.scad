@@ -5,7 +5,8 @@ use <column.scad>
 $fa = 1;
 $fs = 0.4;
 
-base();
+rotate([0,0,-45])
+lettered_base();
 
 translate([-15.5/2,-15,3.4])
 rotate([-25,0,0])
